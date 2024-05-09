@@ -7,7 +7,7 @@ provider "aws" {
      ami           = "ami-07caf09b362be10b8"  # Specify an appropriate AMI ID
      instance_type = "t2.micro"
      key_name = "terrraform"
-     security_groups = "launch-wizard-4"
+     security_groups = ["launch-wizard-4"]
      tags = {
        Name= "Sneha-Instance"
      }
