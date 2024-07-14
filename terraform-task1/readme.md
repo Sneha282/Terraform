@@ -6,6 +6,7 @@
    
 In search bar type >add dev container configuration files ,modify your active configuration, then type terraform and AWS CLI(verified one with tick mark). Then rebuild the container. You can see Terraform and AWS CLI is installed.
 
+# Terraform Task
 
 ![image](https://github.com/user-attachments/assets/63b09843-9325-4304-9412-3456b72df66c)
 
@@ -31,7 +32,9 @@ When you want to execute complex scripts on EC2, you will use provisioners.
 App.py consists of app code.
 
 Main.tf consists of complete terraform code.
-==========================================
+
+===============================================
+
 
 ######## To create AWS key pair from terraform file, we have to generate key in our machine using below command
 
