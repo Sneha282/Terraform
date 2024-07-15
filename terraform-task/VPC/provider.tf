@@ -4,4 +4,6 @@ provider "aws" {
 }
 
 ===================
+Command to create profile
+
 aws configure --profile sonia
